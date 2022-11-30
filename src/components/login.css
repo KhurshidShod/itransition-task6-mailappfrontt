@@ -1,0 +1,34 @@
+.login_container{
+    width: 500px;
+    height: 50vh;
+    border-radius: 50px 0 50px 0;
+    border: 1px solid rgb(165, 165, 165);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login_container form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+.login_container form input {
+    width: 80%;
+    height: 50px;
+}
+.login_container form button {
+    width: 50%;
+    height: 35px;
+}
+.login_container form label {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
